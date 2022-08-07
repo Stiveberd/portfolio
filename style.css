@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+}
+#about {
+  background-color: #fff;
+}
+#title-about {
+  text-align: center;
+  margin-top: 20px;
+  color: #0000ff;
+  text-shadow: 2px 2px 2px #273036;
+  font-weight: bolder;
+}
+#projects {
+  background-color: #273036;
+  color: #fff;
+  text-align: center;
+}
+#contact {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #thumb {
+    display: none;
+  }
+}
